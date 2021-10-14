@@ -1,0 +1,110 @@
+{
+  "name": "dotstatsuite-config",
+  "version": "0.0.1",
+  "scripts": {
+    "start:srv": "NODE_ENV=development DEBUG=config* nodemon --watch server --exec 'babel-node  server'",
+    "lint": "yarn lint:js",
+    "lint:eslint": "eslint --ignore-pattern '!.eslintrc.js'",
+    "lint:js": "yarn lint:eslint -- . ",
+    "lint:staged": "lint-staged",
+    "test": "NODE_ENV=test jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add",
+      "lint:eslint"
+    ],
+    "*.{css, json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint:staged",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^6.2.0",
+    "env": "^0.0.2",
+    "eslint": "^5.12.1",
+    "express": "4.16.2",
+    "fs-extra": "^7.0.1",
+    "morgan": "^1.9.1",
+    "morgan-debug": "^2.0.0",
+    "prettier": "^1.16.1",
+    "ramda": "^0.26.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/server/index.js",
+      "!src/lib/**"
+    ],
+    "resolver": "jest-pnp-resolver",
+    "setupFiles": [],
+    "testMatch": [
+      "<rootDir>/src/**/tests/**/*.test.js"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-regenerator",
+      "@babel/plugin-proposal-export-default-from",
+      "@babel/plugin-syntax-dynamic-import",
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-named-asset-import": "^0.3.0",
+    "babel-plugin-ramda": "^2.0.0",
+    "cross-env": "^5.2.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "lint-staged": "^8.0.4",
+    "nodemon": "^1.18.9"
+  }
+}
