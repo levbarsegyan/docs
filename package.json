@@ -2,25 +2,27 @@
   "name": "dotstatsuite-config",
   "version": "0.0.1",
   "scripts": {
-    "start:srv": "NODE_ENV=development DEBUG=config* nodemon --watch server --exec 'babel-node  server'",
+    "dist:srv": "NODE_ENV=production babel --copy-files  src -d dist",
+    "dist:run": "NODE_ENV=production DEBUG=config* node dist/server",
+    "start:srv": "NODE_ENV=development DEBUG=config* nodemon --watch src/server --exec 'babel-node src/server'",
     "lint": "yarn lint:js",
     "lint:eslint": "eslint --ignore-pattern '!.eslintrc.js'",
     "lint:js": "yarn lint:eslint -- . ",
-    "lint:staged": "lint-staged",
+    "precommit": "lint-staged",
     "test": "NODE_ENV=test jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*.js": [
+    "*.{js,css}": [
       "prettier --write",
       "git add",
-      "lint:eslint"
-    ],
-    "*.{css, json}": [
-      "prettier --write",
-      "git add"
+      "yarn lint:eslint"
     ]
   },
-  "pre-commit": "lint:staged",
   "dependencies": {
     "debug": "^4.1.1",
     "dotenv": "^6.2.0",
@@ -39,7 +41,6 @@
       "!src/server/index.js",
       "!src/lib/**"
     ],
-    "resolver": "jest-pnp-resolver",
     "setupFiles": [],
     "testMatch": [
       "<rootDir>/src/**/tests/**/*.test.js"
@@ -104,7 +105,9 @@
     "babel-plugin-ramda": "^2.0.0",
     "cross-env": "^5.2.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "lint-staged": "^8.0.4",
+    "husky": "^1.3.1",
+    "jest": "^24.0.0",
+    "lint-staged": "^8.1.0",
     "nodemon": "^1.18.9"
   }
 }
