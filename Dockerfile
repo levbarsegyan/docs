@@ -3,6 +3,7 @@ RUN mkdir -p /opt
 WORKDIR /opt
 COPY node_modules /opt/node_modules
 COPY dist /opt/dist
+COPY configs /opt/configs
 COPY .eslint* package.json yarn.lock /opt/
 EXPOSE 80
 CMD yarn dist:run

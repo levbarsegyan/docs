@@ -1,8 +1,13 @@
 const debug = require('debug');
-const loginfo = debug('drsa-config:http');
+const loginfo = debug('config:http');
 const getUrl = server => `http:
 const init = ctx => {
-  const { app, config: { httpServer: { host = 'localhost', port } } } = ctx;
+  const {
+    app,
+    config: {
+      server: { host = 'localhost', port },
+    },
+  } = ctx;
   return new Promise((resolve, reject) => {
     const server = app.listen(port, host, err => {
       if (err) return reject(err);

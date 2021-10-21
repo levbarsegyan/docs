@@ -1,13 +1,8 @@
-const debug = require('debug');
-require('../env');
-const loginfo = debug('drsa-config:env');
-const PRODUCTION = 'production';
-const DEVELOPMENT = 'development';
+import debug from 'debug';
+import params from '../params';
+const loginfo = debug('config');
 const init = () => {
-  const isProduction = process.env.NODE_ENV === PRODUCTION;
-  loginfo(`running ${isProduction ? PRODUCTION : DEVELOPMENT} mode`);
-  const httpServer = { host: process.env.HOST, port: Number(process.env.PORT) };
-  const config = { isProduction, httpServer };
-  return Promise.resolve({ config });
+  loginfo(`running "${params.env}" env`);
+  return Promise.resolve({ config: params });
 };
-module.exports = init;
+export default init;

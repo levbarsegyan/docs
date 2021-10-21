@@ -3,18 +3,17 @@ import initHttp from '../init/http';
 import initRouter from '../init/router';
 const config = {
   isProduction: false,
-  httpServer: {
+  server: {
     host: 'localhost',
   },
 };
-let server;
+let SERVER;
 beforeAll(() =>
   initRouter({ config })
     .then(initHttp)
-    .then(({ httpServer }) => (server = httpServer)),
+    .then(({ httpServer }) => (SERVER = httpServer)),
 );
-afterAll(() => server.close());
+afterAll(() => SERVER.close());
 describe('server', () => {
-  it('should serve partners', () => axios.get(`${server.url}/configs/partners.json`));
-  it('should serve E2E', () => axios.get(`${server.url}/configs/E2E/settings.json`));
+  it('should serve fake data', () => axios.get(`${SERVER.url}/configs/fake/fake.json`));
 });
