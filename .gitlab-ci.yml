@@ -37,10 +37,8 @@ build:
   artifacts:
     paths:
       - dist/
-      - build/
   script:
     - yarn dist
-    - yarn build
   tags:
     - kube
     - oecd

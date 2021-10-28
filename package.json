@@ -2,7 +2,7 @@
   "name": "dotstatsuite-config",
   "version": "0.0.1",
   "scripts": {
-    "dist:srv": "NODE_ENV=production babel --copy-files  src -d dist",
+    "dist": "NODE_ENV=production babel --copy-files  src -d dist",
     "dist:run": "NODE_ENV=production DEBUG=config* node dist/server",
     "start:srv": "NODE_ENV=development DEBUG=config* nodemon --watch src/server --exec 'babel-node src/server'",
     "lint": "yarn lint:js",
