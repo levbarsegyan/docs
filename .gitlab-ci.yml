@@ -5,7 +5,7 @@ stages:
   - release
   - deploy
 variables:
-  IMAGE: siscc/dotstatsuite-webapp-template
+  IMAGE: siscc/dotstatsuite-config
   CONTAINER_IMAGE: $IMAGE:$CI_COMMIT_SHORT_SHA
   LATEST_CONTAINER_IMAGE: $IMAGE:latest
   TAG_CONTAINER_IMAGE: $IMAGE:$CI_COMMIT_REF_NAME
@@ -71,8 +71,8 @@ deploy staging:
     - gcloud config set compute/region europe-west1-b
     - gcloud container clusters get-credentials oecd --region europe-west1-b
     - kubectl get pods -n staging -o wide
-    - kubectl set image deployment/webapp webapp=$CONTAINER_IMAGE -n staging
-    - kubectl set env deployment/webapp GIT_HASH=$CI_COMMIT_SHA -n staging
+    - kubectl set image deployment/config config=$CONTAINER_IMAGE -n staging
+    - kubectl set env deployment/config GIT_HASH=$CI_COMMIT_SHA -n staging
   only:
     - develop
   environment:
