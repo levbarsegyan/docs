@@ -15,5 +15,6 @@ beforeAll(() =>
 );
 afterAll(() => SERVER.close());
 describe('server', () => {
-  it('should serve fake data', () => axios.get(`${SERVER.url}/configs/fake/fake.json`));
+  it('should serve fake data', () => axios.get(`${SERVER.url}/configs/test/data.json`));
+  it('should serve fake i18n', () => axios.get(`${SERVER.url}/configs/test/i18n/fr.json`));
 });
