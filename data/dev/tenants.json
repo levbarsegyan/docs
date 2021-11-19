@@ -2,9 +2,5 @@
   "default": {
     "id": "default",
     "name": "default"
-  },
-  "oecd": {
-    "id": "oecd",
-    "name": "OECD"
   }
 }
