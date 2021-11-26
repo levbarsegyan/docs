@@ -1,0 +1,44 @@
+{
+  "app.title": "OECD Data Explorer",
+  "config.endpoint": "http://dotstatcor-dev1.main.oecd.org/FEDev2ConfigurationIntranetService/1.0/public",
+  "chart.share.endpoint": "http://dotstatcor-dev1.main.oecd.org/FEDev2ShareIntranetService",
+  "chart.viewer.url": "http://dotstatcor-dev1.main.oecd.org/FEDev2DesignViewer",
+  "chart.source.default": "http://dotstat.oecd.org/",
+  "vis.owner": "OECD",
+  "vis.terms.label": "Terms & Conditions",
+  "vis.terms.link": "http://www.oecd.org/termsandconditions/",
+  "vis.logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+  "chart.font": "'Segoe UI'",
+  "search.endpoint": "http://dotstatcor-dev1.main.oecd.org/FEDev2SearchIntranetService/search/1.1",
+  "search.categoryschemeid": "OECD:OECDCS1(1.0)",
+  "search.pagesize": "20",
+  "sdmx.range": [1, 3000],
+  "sdmx.attributes.flags": ["OBS_STATUS"],
+  "sdmx.attributes.footnotes": ["TIME_FORMAT"],
+  "sdmx.attribute.prefscale": "PREF_SCALE", 
+  "sdmx.attribute.decimals": "DECIMALS",
+  "vis.period.boundaries": [1970, 2020],
+  "vis.period.default": [2008, 2018],
+  "i18n.locale.default": "en",
+  "i18n.locales": {
+    "en": {
+      "id": "en",
+      "delimiters": { "thousands": ",", "decimal": "."  }
+    },
+    "fr": {
+      "id": "fr",
+      "delimiters": { "thousands": " ", "decimal": ","  }
+    },
+    "ar": {
+      "id": "ar",
+      "isRtl": "true",
+      "delimiters": { "thousands": " ", "decimal": ","  }
+    }
+  },
+  "ga.token": "UA-114672937-7",
+  "asset.favicon": "assets/favicon.ico",
+  "asset.logo.header": "assets/sis-cc-logo.png",
+  "asset.logo.sub.header": "assets/dotstat-data-explorer-logo.png",
+  "asset.logo.footer": "assets/sis-cc-icon.png",
+  "asset.logo.splash": "assets/dotstat-data-explorer-logo.png"
+}
