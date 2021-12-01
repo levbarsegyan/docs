@@ -12,6 +12,7 @@ const init = ctx => {
   app.use('/healthcheck', (req, res) => res.json({ gitHash }));
   app.use(logger('config:http', 'dev'));
   app.use('/configs', express.static(path.join(__dirname, '../../../configs')));
+  app.use('/assets', express.static(path.join(__dirname, '../../../assets')));
   loginfo('routes setup');
   return Promise.resolve({ ...ctx, app });
 };

@@ -5,7 +5,8 @@ WORKDIR /opt
 
 COPY node_modules /opt/node_modules
 COPY dist /opt/dist
-COPY data/dev /opt/configs
+COPY data/dev/configs /opt/configs
+COPY data/dev/assets /opt/assets
 COPY .eslint* package.json yarn.lock /opt/
 
 EXPOSE 80
