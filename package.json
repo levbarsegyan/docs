@@ -43,31 +43,15 @@
     "ramda": "^0.26.1"
   },
   "jest": {
+    "verbose": true,
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
-      "!src/server/index.js",
-      "!src/lib/**"
+      "!src/server/index.js"
     ],
-    "setupFiles": [],
     "testMatch": [
       "<rootDir>/src/**/tests/**/*.test.js"
     ],
-    "testEnvironment": "node",
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
-    },
-    "moduleFileExtensions": [
-      "web.js",
-      "js",
-      "web.ts",
-      "ts",
-      "web.tsx",
-      "tsx",
-      "json",
-      "web.jsx",
-      "jsx",
-      "node"
-    ]
+    "testEnvironment": "node"
   },
   "babel": {
     "presets": [
