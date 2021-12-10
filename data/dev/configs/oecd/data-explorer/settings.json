@@ -36,9 +36,9 @@
     }
   },
   "ga.token": "UA-114672937-7",
-  "asset.favicon": "assets/favicon.ico",
-  "asset.logo.header": "assets/sis-cc-logo.png",
-  "asset.logo.sub.header": "assets/dotstat-data-explorer-logo.png",
-  "asset.logo.footer": "assets/sis-cc-icon.png",
-  "asset.logo.splash": "assets/dotstat-data-explorer-logo.png"
+  "asset.favicon": "/assets/oecd/data-explorer/images/favicon.ico",
+  "asset.logo.header": "/assets/oecd/data-explorer/images/sis-cc-logo.png",
+  "asset.logo.sub.header": "/assets/oecd/data-explorer/images/dotstat-data-explorer-logo.png",
+  "asset.logo.footer": "/assets/oecd/data-explorer/images/sis-cc-icon.png",
+  "asset.logo.splash": "/assets/oecd/data-explorer/images/dotstat-data-explorer-logo.png"
 }
