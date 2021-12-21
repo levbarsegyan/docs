@@ -41,5 +41,8 @@
   "asset.logo.sub.header": "/assets/oecd/data-explorer/images/dotstat-data-explorer-logo.png",
   "asset.logo.footer": "/assets/oecd/data-explorer/images/sis-cc-icon.png",
   "asset.logo.splash": "/assets/oecd/data-explorer/images/dotstat-data-explorer-logo.png",
-  "styles": "/assets/oecd/data-explorer/styles/styles.css"
+  "styles": "/assets/oecd/data-explorer/styles/styles.css",
+  "search": {
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api"
+  }
 }
