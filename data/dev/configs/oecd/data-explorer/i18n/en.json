@@ -19,7 +19,7 @@
   "de.search.dataflow.dimension": "Dimension",
   "de.search.dataflow.source": "source",
   "de.search.breadcrumb.home": "Home",
-  "de.search.breadcrumb.search": "Search results ({size, number} {size, plural, one {result} other {results}})",
+  "de.search.breadcrumb.search": "Search results ({size, number}/{total} {size, plural, one {result} other {results}})",
   "de.side.filters.action": "Filters",
   "de.filter.period.title": "Period",
   "de.filter.period.tag": "{min} - {max}",

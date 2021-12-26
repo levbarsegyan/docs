@@ -9,14 +9,45 @@
     },
     "period": {
       "boundaries": [1970, 2020],
-      "default": [2008, 2018]
+      "default": [2018, 2018]
+    },
+    "datasources": {
+      "ILO": {
+        "backgroundColor": "#727DB6",
+        "categorySchemeId": "ILO:CAS_SUBJECT(1.0)",
+        "color": "#ffffff",
+        "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
+        "endpoint": "https://www.ilo.org/sdmx/rest",
+        "hasRangeHeader": true,
+        "id": "ILO",
+        "isExternal": true,
+        "label": "ILO.Stat",
+        "order": 0,
+        "supportsReferencePartial": false,
+        "type": "dissemination"
+      },
+      "INS": {
+        "backgroundColor": "#6DBE00",
+        "color": "#ffffff",
+        "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
+        "endpoint": "http://sdmx.ins.tn/NSI_WS/Rest",
+        "hasRangeHeader": true,
+        "id": "INS",
+        "isExternal": true,
+        "label": "INS.Stat",
+        "order": 1,
+        "supportsReferencePartial": false,
+        "type": "dissemination"
+      }
     }
   },
   "viewer": {
-    "owner": "OECD",
-    "label": "Terms & Conditions",
-    "link": "http://www.oecd.org/termsandconditions/",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png"
+    "owner": "OECD", 
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+    "terms": {
+      "label": "Terms & Conditions",
+      "link": "http://www.oecd.org/termsandconditions/"
+    }
   },
   "app": {
     "title": "OECD Data Explorer",
@@ -31,16 +62,44 @@
   "chart": {
     "url": "http://dotstatcor-dev1.main.oecd.org/FEDev2DesignViewer",
     "source": "http://dotstat.oecd.org/",
+    "options": {
+      "base": {
+        "height": 400
+      },
+      "axis": {
+        "x": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        },
+        "y": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        }
+      },
+      "serie": {
+        "annotation": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        },
+        "tooltip": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        }
+      }
+    },
     "size": {
-      "width": 100,
-      "height": 200
+      "height": 400
     }
   },
   "theme": {
     "visFont": "'Segoe UI'"
   },
   "i18n": {
-    "locale": "en",
+    "localeId": "en",
     "locales": {
       "en": {
         "id": "en",
@@ -48,6 +107,10 @@
       },
       "fr": {
         "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      },
+      "es": {
+        "id": "es",
         "delimiters": { "thousands": " ", "decimal": ","  }
       },
       "ar": {
@@ -66,34 +129,5 @@
   },
   "share": {
     "endpoint": "http://dotstatcor-dev1.main.oecd.org/FEDev2ShareIntranetService"
-  },
-  "spaces": {
-    "ILO": {
-      "backgroundColor": "#727DB6",
-      "categorySchemeId": "ILO:CAS_SUBJECT(1.0)",
-      "color": "#ffffff",
-      "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
-      "endpoint": "https://www.ilo.org/sdmx/rest",
-      "hasRangeHeader": true,
-      "id": "ILO",
-      "isExternal": true,
-      "label": "ILO.Stat",
-      "order": 0,
-      "supportsReferencePartial": false,
-      "type": "dissemination"
-    },
-    "INS": {
-      "backgroundColor": "#6DBE00",
-      "color": "#ffffff",
-      "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
-      "endpoint": "http://sdmx.ins.tn/NSI_WS/Rest",
-      "hasRangeHeader": true,
-      "id": "INS",
-      "isExternal": true,
-      "label": "INS.Stat",
-      "order": 1,
-      "supportsReferencePartial": false,
-      "type": "dissemination"
-    }
   }
 }
