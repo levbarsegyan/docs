@@ -5,6 +5,7 @@ stages:
   - release
   - deploy
 variables:
+  NODE_VERSION: node:11.10-alpine
   DEV_IMAGE: siscc/dotstatsuite-config-dev
   CONTAINER_DEV_IMAGE: $DEV_IMAGE:$CI_COMMIT_SHORT_SHA
   TAG_CONTAINER_DEV_IMAGE: $DEV_IMAGE:$CI_COMMIT_REF_NAME
@@ -13,7 +14,7 @@ variables:
   CI_REGISTRY_AUTH: ZWJhc2xleTpmcmVlcmlkZTE0
 setup:
   stage: setup
-  image: node:alpine
+  image: $NODE_VERSION
   script:
     - yarn
   artifacts:
@@ -24,7 +25,7 @@ setup:
     - oecd
 unit test:
   stage: unit-test
-  image: node:alpine
+  image: $NODE_VERSION
   script:
     - yarn test
   dependencies:
@@ -33,7 +34,7 @@ unit test:
     - docker
 build:
   stage: build
-  image: node:alpine
+  image: $NODE_VERSION
   artifacts:
     paths:
       - dist/
