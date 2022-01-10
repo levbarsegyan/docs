@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+:focus {
+  outline: 0 !important;
+}
+.css-glamorous-div--7301l2,
+.css-glamorous-div--1tab7cn,
+.css-glamorous-span--wvigg8 {
+  background-color: #cd4436 !important;
+}
+.css-glamorous-a--4z7l9r {
+  color: #cd4436 !important;
+}
+.pt-button-group.pt-minimal .pt-button:active, .pt-button-group.pt-minimal .pt-button.pt-active {
+  display: none;
+}
