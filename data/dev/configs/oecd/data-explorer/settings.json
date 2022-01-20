@@ -10,39 +10,10 @@
     "period": {
       "boundaries": [1970, 2020],
       "default": [2018, 2018]
-    },
-    "datasources": {
-      "ILO": {
-        "backgroundColor": "#727DB6",
-        "categorySchemeId": "ILO:CAS_SUBJECT(1.0)",
-        "color": "#ffffff",
-        "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
-        "endpoint": "https://www.ilo.org/sdmx/rest",
-        "hasRangeHeader": true,
-        "id": "ILO",
-        "isExternal": true,
-        "label": "ILO.Stat",
-        "order": 0,
-        "supportsReferencePartial": false,
-        "type": "dissemination"
-      },
-      "INS": {
-        "backgroundColor": "#6DBE00",
-        "color": "#ffffff",
-        "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
-        "endpoint": "http://sdmx.ins.tn/NSI_WS/Rest",
-        "hasRangeHeader": true,
-        "id": "INS",
-        "isExternal": true,
-        "label": "INS.Stat",
-        "order": 1,
-        "supportsReferencePartial": false,
-        "type": "dissemination"
-      }
     }
   },
   "viewer": {
-    "owner": "OECD", 
+    "owner": "OECD",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
     "terms": {
       "label": "Terms & Conditions",
