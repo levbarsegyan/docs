@@ -1,6 +1,17 @@
 {
  "ILO": {
-   "url": "https://www.ilo.org/sdmx/rest",
-   "indexed": true
- }
+    "backgroundColor": "#727DB6",
+    "categorySchemeId": "ILO:CAS_SUBJECT(1.0)",
+    "color": "#ffffff",
+    "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
+    "url": "https://www.ilo.org/sdmx/rest",
+    "hasRangeHeader": true,
+    "id": "ILO",
+    "isExternal": true,
+    "label": "ILO.Stat",
+    "order": 0,
+    "supportsReferencePartial": false,
+    "type": "dissemination",
+    "indexed": true
+  }
 }
