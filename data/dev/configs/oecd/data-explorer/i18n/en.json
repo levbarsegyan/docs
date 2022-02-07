@@ -71,10 +71,10 @@
   "de.table.layout.time.desc": "descending",
   "de.table.layout.y": "Columns",
   "de.table.layout.x": "Rows",
-  "de.table.layout.z": "Sections",
+  "de.table.layout.z": "Row sections",
   "de.table.layout.getter.dimension": "Label format",
-  "de.table.layout.help": "Drag dimensions between columns, row sections and rows",
-  "de.table.layout.table": "Table preview comming soon",
+  "de.table.layout.help": "Drag dimensions between Columns, Row sections and Rows",
+  "de.table.layout.table": "Table preview coming soon...",
   "de.visualisation.data.loading": "loading data...",
   "de.visualisation.structure.loading": "loading structure...",
   "de.visualisation.loading": "loading structure and data...",
@@ -126,8 +126,10 @@
   "share.embed.code": "Embed code",
   "share.use.code.to.embed.visualisation": "Use this code to embed the visualisation into your website.",
   "share.preview.embedded": "Preview Embedding",
-  "vx.config.display.label": "name",
-  "vx.config.display.code": "code",
-  "vx.config.display.both": "both",
-  "vx.no.data": "No data"
+  "vx.config.display.label": "Name",
+  "vx.config.display.code": "Code",
+  "vx.config.display.both": "Both",
+  "vx.no.data": "No data",
+  "vx.scope.list.select": "Select all levels...",
+  "vx.scope.list.select.current": "current view"
 }
