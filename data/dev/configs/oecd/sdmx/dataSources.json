@@ -12,6 +12,21 @@
     "order": 0,
     "supportsReferencePartial": false,
     "type": "dissemination",
+    "indexed": false
+  },
+ "OECD": {
+    "backgroundColor": "#727DB6",
+    "color": "#ffffff",
+    "dataExplorerUrl": "https://dotstatcor-dev1.main.oecd.org/FEDev2disseminateDataExplorer",
+    "url": "http://vmstatdemo.northeurope.cloudapp.azure.com/SeptemberDisseminateNSIService/rest",
+    "version": "1.0",
+    "categorySchemeId": "OECDCS1",
+    "hasRangeHeader": true,
+    "isExternal": true,
+    "label": "ILO.Stat",
+    "order": 0,
+    "supportsReferencePartial": false,
+    "type": "dissemination",
     "indexed": true
   }
 }
