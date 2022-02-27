@@ -18,6 +18,10 @@
     "terms": {
       "label": "Terms & Conditions",
       "link": "http://www.oecd.org/termsandconditions/"
+    },
+    "api": {
+      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
+      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
     }
   },
   "app": {
