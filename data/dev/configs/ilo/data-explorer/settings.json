@@ -13,11 +13,11 @@
     }
   },
   "viewer": {
-    "owner": "OECD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+    "owner": "ILO",
+    "logo": "https://seeklogo.net/wp-content/uploads/2012/12/ilo-logo-vector.png",
     "terms": {
       "label": "Terms & Conditions",
-      "link": "http://www.oecd.org/termsandconditions/"
+      "link": "http://www.ilo.org"
     },
     "api": {
       "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
@@ -25,7 +25,7 @@
     }
   },
   "app": {
-    "title": "OECD Data Explorer",
+    "title": "ILO Data Explorer",
     "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "assets": {
@@ -36,7 +36,7 @@
   },
   "chart": {
     "url": "",
-    "source": "http://dotstat.oecd.org/",
+    "source": "https://www.ilo.org",
     "options": {
       "base": {
         "height": 400
@@ -95,15 +95,13 @@
       }
     }
   },
-  "ga": {
-    "token": "UA-114672937-7"
-  },
+  "ga": {},
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
     "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
-    "homeFacetIds": ["datasource_id", "cas_subject","ref_area", "dsb"],
-    "pinnedFacetIds": ["datasource_id", "cas_subject","ref_area", "dsb"],
-    "excludedFacetIds": ["survey"]
+    "homeFacetIds": ["cas_subject","ref_area", "dsb"],
+    "pinnedFacetIds": ["cas_subject","ref_area", "dsb"],
+    "excludedFacetIds": ["datasource_id", "survey"]
   },
   "share": {}
 }
