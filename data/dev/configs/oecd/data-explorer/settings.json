@@ -103,7 +103,8 @@
     "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
     "homeFacetIds": ["datasource_id", "cas_subject","ref_area", "dsb"],
     "pinnedFacetIds": ["datasource_id", "cas_subject","ref_area", "dsb"],
-    "excludedFacetIds": ["survey"]
+    "excludedFacetIds": ["survey"],
+    "defaultRows": 10
   },
   "share": {}
 }
