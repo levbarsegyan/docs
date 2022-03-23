@@ -3,17 +3,16 @@
     "backgroundColor": "#727DB6",
     "color": "#ffffff",
     "dataExplorerUrl": "http://data-explorer.staging.oecd.redpelicans.com",
-    "url": "https://www.ilo.org/sdmx/rest",
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
-    "agencyId": "ILO",
     "hasRangeHeader": true,
     "isExternal": true,
     "label": "ILO.Stat",
     "order": 0,
     "supportsReferencePartial": false,
     "type": "dissemination",
-    "indexed": false
+    "indexed": true
   },
  "OECD": {
     "backgroundColor": "#727DB6",
@@ -22,7 +21,6 @@
     "url": "http://vmstatdemo.northeurope.cloudapp.azure.com/SeptemberDisseminateNSIService/rest",
     "version": "1.0",
     "categorySchemeId": "OECDCS1",
-    "agencyId": "OECD",
     "hasRangeHeader": true,
     "isExternal": true,
     "label": "OECD.Stat",

@@ -10,22 +10,6 @@
     "period": {
       "boundaries": [1970, 2020],
       "default": [2018, 2018]
-    },
-    "datasources": {
-      "ILO": {
-        "backgroundColor": "#727DB6",
-        "categorySchemeId": "ILO:CAS_SUBJECT(1.0)",
-        "color": "#ffffff",
-        "dataExplorerUrl": "",
-        "endpoint": "https://www.ilo.org/sdmx/rest",
-        "hasRangeHeader": true,
-        "id": "ILO",
-        "isExternal": true,
-        "label": "ILO.Stat",
-        "order": 0,
-        "supportsReferencePartial": false,
-        "type": "dissemination"
-      }
     }
   },
   "viewer": {
@@ -34,6 +18,10 @@
     "terms": {
       "label": "Terms & Conditions",
       "link": "http://www.redpelicans.com"
+    },
+    "api": {
+      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
+      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
     }
   },
   "app": {
@@ -98,11 +86,10 @@
       }
     }
   },
+  "ga": {},
   "styles": "/assets/redpelicans/data-explorer/styles/styles.css",
   "search": {
     "endpoint": "http://sfs.staging.oecd.redpelicans.com/api"
   },
-  "share": {
-    "endpoint": ""
-  }
+  "share": {}
 }

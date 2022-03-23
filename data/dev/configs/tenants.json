@@ -7,8 +7,12 @@
     "id": "oecd",
     "name": "OECD"
   },
-  "redpelicans": {
-    "id": "redpelicans",
+  "ilo": {
+    "id": "ilo",
+    "name": "ILO"
+  },
+  "rp": {
+    "id": "rp",
     "name": "RedPelicans"
   }
 }
