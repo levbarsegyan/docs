@@ -1,0 +1,6 @@
+{
+  "app": {
+    "title": "OECD Data viewer",
+    "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
+  },
+}
