@@ -3,7 +3,7 @@
     "backgroundColor": "#727DB6",
     "color": "#ffffff",
     "dataExplorerUrl": "http://data-explorer.staging.oecd.redpelicans.com",
-    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "url": "https://www.ilo.org/sdmx/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
     "agencyId": "ILO",
