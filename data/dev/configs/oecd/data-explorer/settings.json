@@ -106,5 +106,9 @@
     "excludedFacetIds": ["survey"],
     "defaultRows": 10
   },
-  "share": {}
+  "share": {
+    "confirmUrl": "http://webapp.staging.oecd.redpelicans.com/?tenant=oecd",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": "http://www.oecd.org/"
+  }
 }
