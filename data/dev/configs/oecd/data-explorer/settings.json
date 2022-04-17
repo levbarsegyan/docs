@@ -107,7 +107,7 @@
     "defaultRows": 10
   },
   "share": {
-    "confirmUrl": "http://webapp.staging.oecd.redpelicans.com/?tenant=oecd",
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
     "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
     "policy": "http://www.oecd.org/"
   }
