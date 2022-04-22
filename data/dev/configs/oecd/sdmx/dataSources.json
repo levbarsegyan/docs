@@ -13,7 +13,7 @@
     "order": 0,
     "supportsReferencePartial": false,
     "type": "dissemination",
-    "indexed": false
+    "indexed": true
   },
  "OECD": {
     "backgroundColor": "#727DB6",
