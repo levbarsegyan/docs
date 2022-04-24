@@ -134,5 +134,16 @@
   "vx.config.display.both": "Both",
   "vx.no.data": "No data",
   "vx.scope.list.select": "Select all levels...",
-  "vx.scope.list.select.current": "current view"
+  "vx.scope.list.select.current": "current view",
+  "de.period.year": "Year",
+  "de.period.semester": "Semester",
+  "de.period.quarter": "Quarter",
+  "de.period.month": "Month",
+  "de.period.week": "Week",
+  "de.period.hour": "Hour",
+  "de.period.minute": "Minute",
+  "de.period.full_hour": "Hour",
+  "de.period.day": "Day",
+  "de.period.end": "End",
+  "de.period.start": "Start"
 }
