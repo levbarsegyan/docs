@@ -1,0 +1,5 @@
+{
+  "data.fetching": "Cargando datos...",
+  "data.error": "Error mientras se cargaban los datos: {message}",
+  "data.none": "No hay datos."
+}
