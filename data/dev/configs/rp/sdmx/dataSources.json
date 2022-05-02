@@ -3,7 +3,7 @@
     "backgroundColor": "#727DB6",
     "color": "#ffffff",
     "dataExplorerUrl": "http://data-explorer.staging.oecd.redpelicans.com",
-    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
     "hasRangeHeader": true,
@@ -13,20 +13,5 @@
     "supportsReferencePartial": false,
     "type": "dissemination",
     "indexed": true
-  },
- "OECD": {
-    "backgroundColor": "#727DB6",
-    "color": "#ffffff",
-    "dataExplorerUrl": "http://data-explorer.staging.oecd.redpelicans.com",
-    "url": "http://vmstatdemo.northeurope.cloudapp.azure.com/SeptemberDisseminateNSIService/rest",
-    "version": "1.0",
-    "categorySchemeId": "OECDCS1",
-    "hasRangeHeader": true,
-    "isExternal": true,
-    "label": "OECD.Stat",
-    "order": 1,
-    "supportsReferencePartial": false,
-    "type": "dissemination",
-    "indexed": false
   }
 }

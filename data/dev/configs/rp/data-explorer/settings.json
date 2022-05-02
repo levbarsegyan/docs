@@ -4,7 +4,7 @@
     "attributes": {
       "flags": ["OBS_STATUS"],
       "footnotes": ["TIME_FORMAT"],
-      "prefscale": "PREF_SCALE", 
+      "prefscale": "PREF_SCALE",
       "decimals": "DECIMALS"
     },
     "period": {
@@ -88,8 +88,6 @@
   },
   "ga": {},
   "styles": "/assets/redpelicans/data-explorer/styles/styles.css",
-  "search": {
-    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api"
-  },
+  "search": {},
   "share": {}
 }
