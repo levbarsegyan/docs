@@ -10,7 +10,8 @@
     "period": {
       "boundaries": ["1970", "2020"],
       "default": ["2018", "2018"]
-    }
+    },
+    "frequency": "A"
   },
   "viewer": {
     "owner": "RedPelicans", 
