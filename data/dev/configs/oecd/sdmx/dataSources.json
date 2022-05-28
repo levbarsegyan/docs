@@ -11,20 +11,27 @@
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
     "agencyId": "ILO",
-    "indexed": true
+    "indexed": false
   },
   "ILO_CAS_KILM": {
     "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_KILM",
     "agencyId": "ILO",
-    "indexed": true
+    "indexed": false
   },
   "ILO_CAS_BREAKDOWN": {
     "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_BREAKDOWN",
     "agencyId": "ILO",
+    "indexed": false
+  },
+  "ISTAT_ISTAT_DW": {
+    "url": "http://sistanhub.istat.it/SDMXWS/rest",
+    "version": "1.0",
+    "categorySchemeId": "ISTAT_DW",
+    "agencyId": "IT1",
     "indexed": true
   }
 }
