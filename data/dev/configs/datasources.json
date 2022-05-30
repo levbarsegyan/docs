@@ -4,6 +4,8 @@
     "version": "1.0",
     "categorySchemeId": "CAM_CAT",
     "agencyId": "KH_NIS",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
     "indexed": false
   },
   "ILO_CAS_SUBJECT": {
@@ -11,6 +13,8 @@
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
     "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
     "indexed": false
   },
   "ILO_CAS_KILM": {
@@ -18,6 +22,8 @@
     "version": "1.0",
     "categorySchemeId": "CAS_KILM",
     "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
     "indexed": false
   },
   "ILO_CAS_BREAKDOWN": {
@@ -25,6 +31,8 @@
     "version": "1.0",
     "categorySchemeId": "CAS_BREAKDOWN",
     "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
     "indexed": false
   },
   "ISTAT_ISTAT_DW": {
@@ -32,6 +40,17 @@
     "version": "1.0",
     "categorySchemeId": "ISTAT_DW",
     "agencyId": "IT1",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "indexed": false
+  },
+  "OECD_OECDCS1": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "OECDCS1",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
     "indexed": true
   }
 }
