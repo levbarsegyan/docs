@@ -1,10 +1,11 @@
 {
   "sdmx": {
+    "datasourceIds": ["ILO_CAS_SUBJECT", "ILO_CAS_KILM", "ILO_CAS_BREAKDOWN"],
     "range": [0, 1000],
     "attributes": {
-      "flags": ["OBS_STATUS"],
+      "flags": [],
       "footnotes": [
-        "TIME_FORMAT","CURRENCY",
+        "TIME_FORMAT","CURRENCY", "OBS_STATUS",
         "R1","S1","S14","S11","S3","S4","S5","S7","S8","S9","S6","S10","T2","T3","T5","I24",
         "I25","I26","T35","T4","I19","T6","T7","T8","T9","T10","T11","T12","I27","I10","I8",
         "T13","T14","T16","T17","T18","T36","T19","T20","T21","T22","T23","T24","T25","T26",
@@ -18,7 +19,7 @@
     },
     "period": {
       "boundaries": ["1970", "2020"],
-      "default": ["2018", "2018"]
+      "default": ["2000", "2018"]
     },
     "frequency": "A"
   },

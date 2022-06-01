@@ -1,49 +1,47 @@
 {
   "sdmx": {
+    "datasourceIds": ["ISTAT_ISTAT_DW"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
       "footnotes": ["TIME_FORMAT"],
-      "prefscale": "PREF_SCALE",
+      "prefscale": "PREF_SCALE", 
       "decimals": "DECIMALS"
     },
     "period": {
       "boundaries": ["1970", "2020"],
-      "default": ["2018", "2018"]
+      "default": ["2000", "2018"]
     },
     "frequency": "A"
   },
   "viewer": {
-    "owner": "RedPelicans", 
-    "logo": "/assets/redpelicans/data-explorer/images/paper-plane.png",
+    "owner": "ISTAT",
+    "logo": "",
     "terms": {
       "label": "Terms & Conditions",
-      "link": "http://www.redpelicans.com"
+      "link": ""
     },
     "api": {
-      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
-      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
+      "doc": "",
+      "contact": ""
     }
   },
   "app": {
-    "title": "RP Data Explorer",
-    "favicon": "/assets/redpelicans/data-explorer/images/favicon.ico"
+    "title": "ISTAT Data Explorer",
+    "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "assets": {
-    "header": "/assets/redpelicans/data-explorer/images/paper-plane.png",
-    "subheader": "/assets/redpelicans/data-explorer/images/paper-plane.png",
-    "footer": "/assets/redpelicans/data-explorer/images/paper-plane.png",
-    "splash": "/assets/redpelicans/data-explorer/images/paper-plane.png"
+    "header": "/assets/siscc/data-explorer/images/sis-cc-logo.png",
+    "subheader": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png",
+    "footer": "/assets/siscc/data-explorer/images/sis-cc-icon.png",
+    "splash": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png"
   },
   "chart": {
     "url": "",
-    "source": "http://www.redpelicans.com",
+    "source": "",
     "options": {
       "base": {
-        "height": 600
-      },
-      "background": {
-        "color": "#f6dcd9"
+        "height": 400
       },
       "axis": {
         "x": {
@@ -58,7 +56,6 @@
         }
       },
       "serie": {
-        "colors": ["#cd4436"],
         "annotation": {
           "font": {
             "family": "'Segoe UI'"
@@ -84,11 +81,24 @@
       "en": {
         "id": "en",
         "delimiters": { "thousands": ",", "decimal": "."  }
+      },
+      "it": {
+        "id": "it",
+        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },
-  "ga": {},
-  "styles": "/assets/redpelicans/data-explorer/styles/styles.css",
-  "search": {},
-  "share": {}
+  "ga": {
+    "token": "UA-114672937-7"
+  },
+  "styles": "/assets/siscc/data-explorer/styles/styles.css",
+  "search": {
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
+    "defaultRows": 10
+  },
+  "share": {
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": ""
+  }
 }

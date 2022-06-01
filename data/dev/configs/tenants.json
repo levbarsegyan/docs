@@ -11,8 +11,12 @@
     "id": "ilo",
     "name": "ILO"
   },
-  "rp": {
-    "id": "rp",
-    "name": "RedPelicans"
+  "istat": {
+    "id": "istat",
+    "name": "ISTAT"
+  },
+  "cam": {
+    "id": "cam",
+    "name": "CAMBODIA"
   }
 }

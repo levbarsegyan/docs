@@ -8,7 +8,7 @@
   "de.footer.disclaimer": "This is a beta version of the .Stat Data Explorer.{br}It covers a subset of the final expected features and is designed for test purposes only.",
   "de.search.datasource_id": "Datasource",
   "de.search.topics.browse": "Browse by",
-  "de.search.splash": " ",
+  "de.search.splash": "Search, visualise and share data...",
   "de.search.header": "Search in",
   "de.search.header.page": "Search within the page",
   "de.search.header.data.explorer": "Search in Data Explorer",
