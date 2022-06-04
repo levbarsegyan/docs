@@ -81,10 +81,6 @@
       "en": {
         "id": "en",
         "delimiters": { "thousands": ",", "decimal": "."  }
-      },
-      "it": {
-        "id": "it",
-        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },

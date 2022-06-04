@@ -11,8 +11,7 @@
   },
   "i18n": {
     "locales": {
-      "en": { "id": "en" },
-      "it": { "id": "it" }
+      "en": { "id": "en" }
     }
   },
   "sdmx": {
