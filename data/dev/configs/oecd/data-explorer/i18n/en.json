@@ -71,7 +71,7 @@
   "de.table.layout.time.asc": "ascending",
   "de.table.layout.time.desc": "descending",
   "de.table.layout.y": "Columns",
-  "de.table.layout.x": "Rows",
+  "de.table.layout.x": "Rows (minimum of 1)",
   "de.table.layout.z": "Row sections",
   "de.table.layout.getter.dimension": "Label format",
   "de.table.layout.help": "Drag dimensions between Columns, Row sections and Rows",

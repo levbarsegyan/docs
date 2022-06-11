@@ -68,7 +68,7 @@
   "de.table.layout.time.asc": "croissant",
   "de.table.layout.time.desc": "décroissant",
   "de.table.layout.y": "Colonnes",
-  "de.table.layout.x": "Lignes",
+  "de.table.layout.x": "Lignes (minimum 1)",
   "de.table.layout.z": "Sections",
   "de.table.layout.getter.dimension": "Format de label",
   "de.table.layout.help": "Faites glisser les dimensions entre les colonnes, les sections de lignes et les lignes",
