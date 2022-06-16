@@ -17,7 +17,7 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": false,
     "label": "CAS_SUBJECT of ILO datasource",
-    "indexed": false
+    "indexed": true
   },
   "ILO_CAS_KILM": {
     "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
@@ -27,7 +27,7 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": false,
     "label": "CAS_KILM of ILO datasource",
-    "indexed": false
+    "indexed": true
   },
   "ILO_CAS_BREAKDOWN": {
     "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
@@ -37,7 +37,7 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": false,
     "label": "CAS_BREAKDOWN of ILO datasource",
-    "indexed": false
+    "indexed": true
   },
   "ISTAT_ISTAT_DW": {
     "url": "http://sistanhub.istat.it/SDMXWS/rest",
