@@ -38,7 +38,8 @@ unit test:
   dependencies:
     - setup
   tags:
-    - docker
+    - kube
+    - oecd
 build:
   stage: build
   image: $NODE_VERSION
