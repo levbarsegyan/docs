@@ -23,7 +23,7 @@
   "de.search.breadcrumb.blank": "Résultats",
   "de.search.breadcrumb.search": "Résultats ({size, number}/{total} {size, plural, one {résultat} other {résultats}})",
   "de.side.filters.action": "Filtres",
-  "de.filter.period.title": "Période",
+  "de.filter.period.title": "Fréquence & Période",
   "de.filter.period.tag": "{min} - {max}",
   "vx.spotlight.placeholder": "Je cherche…",
   "vx.spotlight.placeholder.primary": "chercher dans tout",

@@ -26,7 +26,7 @@
   "de.search.totalPages": "of {pages}",
   "de.search.page": "Page",
   "de.side.filters.action": "Filters",
-  "de.filter.period.title": "Period",
+  "de.filter.period.title": "Frequency & Time Period",
   "de.filter.period.tag": "{min} - {max}",
   "vx.spotlight.placeholder": "search...",
   "vx.spotlight.placeholder.primary": "search on all",
