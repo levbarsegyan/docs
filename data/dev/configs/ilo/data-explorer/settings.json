@@ -116,6 +116,6 @@
   "share": {
     "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
     "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
-    "policy": "https://www.ilo.org/"
+    "policy": "https://www.ilo.org/global/privacy-policy/lang--en/index.htm"
   }
 }

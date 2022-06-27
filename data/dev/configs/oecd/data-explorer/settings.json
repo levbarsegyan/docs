@@ -108,6 +108,6 @@
   "share": {
     "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
     "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
-    "policy": "http://www.oecd.org/"
+    "policy": "http://www.oecd.org/general/privacypolicy.htm"
   }
 }
