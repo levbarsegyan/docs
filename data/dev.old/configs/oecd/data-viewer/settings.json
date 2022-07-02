@@ -7,7 +7,7 @@
     "token": "UA-114672937-7"
   },
   "share": {
-    "endpoint": "http://share.qa.oecd.redpelicans.com"
+    "endpoint": "http://share.staging.oecd.redpelicans.com"
   },
   "i18n": {
     "locales": {

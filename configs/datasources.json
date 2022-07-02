@@ -1,0 +1,62 @@
+{
+  "CAM_CAM_CAT": {
+    "url": "http://cambodgia-statvm1.eastasia.cloudapp.azure.com/SeptemberDisseminateNSIService/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAM_CAT",
+    "agencyId": "KH_NIS",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "CAM_CAT of KH_NIS datasource",
+    "indexed": false
+  },
+  "ILO_CAS_SUBJECT": {
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_SUBJECT",
+    "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
+    "label": "CAS_SUBJECT of ILO datasource",
+    "indexed": false
+  },
+  "ILO_CAS_KILM": {
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_KILM",
+    "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
+    "label": "CAS_KILM of ILO datasource",
+    "indexed": false
+  },
+  "ILO_CAS_BREAKDOWN": {
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_BREAKDOWN",
+    "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
+    "label": "CAS_BREAKDOWN of ILO datasource",
+    "indexed": false
+  },
+  "ISTAT_ISTAT_DW": {
+    "url": "http://sistanhub.istat.it/SDMXWS/rest",
+    "version": "1.0",
+    "categorySchemeId": "ISTAT_DW",
+    "agencyId": "IT1",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "ISTAT_DW of IT1 datasource",
+    "indexed": false
+  },
+  "OECD_OECDCS1": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "OECDCS1",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "OECDCS1 of OECD datasource",
+    "indexed": true
+  }
+}

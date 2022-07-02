@@ -1,19 +1,17 @@
 {
   "app": {
-    "title": "OECD Data viewer",
+    "title": "ISTAT Data viewer",
     "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "ga": {
-    "token": "UA-114672937-7"
+    "token": ""
   },
   "share": {
-    "endpoint": "http://share.qa.oecd.redpelicans.com"
+    "endpoint": "http://share.staging.oecd.redpelicans.com"
   },
   "i18n": {
     "locales": {
-      "en": { "id": "en" },
-      "fr": { "id": "fr" },
-      "ar": { "id": "ar", "isRtl": "true" }
+      "en": { "id": "en" }
     }
   },
   "sdmx": {

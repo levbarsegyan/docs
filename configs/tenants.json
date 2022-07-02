@@ -1,0 +1,22 @@
+{
+  "default": {
+    "id": "default",
+    "name": "default"
+  },
+  "oecd": {
+    "id": "oecd",
+    "name": "OECD"
+  },
+  "ilo": {
+    "id": "ilo",
+    "name": "ILO"
+  },
+  "istat": {
+    "id": "istat",
+    "name": "ISTAT"
+  },
+  "cam": {
+    "id": "cam",
+    "name": "CAMBODIA"
+  }
+}

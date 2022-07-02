@@ -1,6 +1,6 @@
 {
   "sdmx": {
-    "datasourceIds": ["OECD_OECDCS1"],
+    "datasourceIds": ["ISTAT_ISTAT_DW"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
@@ -10,24 +10,24 @@
     },
     "period": {
       "boundaries": ["1970", "2020"],
-      "default": ["2010", "2018"]
+      "default": ["2000", "2018"]
     },
     "frequency": "A"
   },
   "viewer": {
-    "owner": "OECD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+    "owner": "ISTAT",
+    "logo": "",
     "terms": {
       "label": "Terms & Conditions",
-      "link": "http://www.oecd.org/termsandconditions/"
+      "link": ""
     },
     "api": {
-      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
-      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
+      "doc": "",
+      "contact": ""
     }
   },
   "app": {
-    "title": "OECD Data Explorer",
+    "title": "ISTAT Data Explorer",
     "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "assets": {
@@ -38,7 +38,7 @@
   },
   "chart": {
     "url": "",
-    "source": "http://dotstat.oecd.org/",
+    "source": "",
     "options": {
       "base": {
         "height": 400
@@ -81,19 +81,6 @@
       "en": {
         "id": "en",
         "delimiters": { "thousands": ",", "decimal": "."  }
-      },
-      "fr": {
-        "id": "fr",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "es": {
-        "id": "es",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "ar": {
-        "id": "ar",
-        "isRtl": "true",
-        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },
@@ -102,12 +89,12 @@
   },
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
-    "endpoint": "http://sfs.qa.oecd.redpelicans.com/api",
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
     "defaultRows": 10
   },
   "share": {
-    "confirmUrl": "http://data-viewer.qa.oecd.redpelicans.com",
-    "endpoint": "http://share.qa.oecd.redpelicans.com/api/charts",
-    "policy": "http://www.oecd.org/general/privacypolicy.htm"
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": ""
   }
 }

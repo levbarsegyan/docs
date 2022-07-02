@@ -1,0 +1,121 @@
+{
+  "sdmx": {
+    "datasourceIds": ["ILO_CAS_SUBJECT", "ILO_CAS_KILM", "ILO_CAS_BREAKDOWN"],
+    "range": [0, 1000],
+    "attributes": {
+      "flags": [],
+      "footnotes": [
+        "TIME_FORMAT","CURRENCY", "OBS_STATUS",
+        "R1","S1","S14","S11","S3","S4","S5","S7","S8","S9","S6","S10","T2","T3","T5","I24",
+        "I25","I26","T35","T4","I19","T6","T7","T8","T9","T10","T11","T12","I27","I10","I8",
+        "T13","T14","T16","T17","T18","T36","T19","T20","T21","T22","T23","T24","T25","T26",
+        "T34","T27","T28","T29","T31","T32","T33","I12","I6","I4","I1","I2","I3","I5","I7",
+        "I9","T37","T38","I11","I13","C1","C4","C6","T39","C2","C3","C5","C12","C7","C8",
+        "C9","C10","C11","C13","I14","I15","I16","I17","I18","I21","I20","I22","I23","I33",
+        "S13","C90","C91","C92","C93","C94","C95","C96","C97","C98"
+      ],
+      "prefscale": "PREF_SCALE", 
+      "decimals": "DECIMALS"
+    },
+    "period": {
+      "boundaries": ["1970", "2020"],
+      "default": ["2000", "2018"]
+    },
+    "frequency": "A"
+  },
+  "viewer": {
+    "owner": "ILO",
+    "logo": "https://seeklogo.net/wp-content/uploads/2012/12/ilo-logo-vector.png",
+    "terms": {
+      "label": "Terms & Conditions",
+      "link": "https://www.ilo.org"
+    },
+    "api": {
+      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
+      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
+    }
+  },
+  "app": {
+    "title": "ILO Data Explorer",
+    "favicon": "/assets/ilo/data-explorer/images/favicon.ico"
+  },
+  "assets": {
+    "header": "/assets/ilo/data-explorer/images/ilo-logo.png",
+    "subheader": "/assets/ilo/data-explorer/images/ilostat-data-explorer-logo.png",
+    "footer": "/assets/ilo/data-explorer/images/sis-cc-icon.png",
+    "splash": "/assets/ilo/data-explorer/images/ilostat-data-explorer-logo.png"
+  },
+  "chart": {
+    "url": "",
+    "source": "https://www.ilo.org",
+    "options": {
+      "base": {
+        "height": 400
+      },
+      "axis": {
+        "x": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        },
+        "y": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        }
+      },
+      "serie": {
+        "annotation": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        },
+        "tooltip": {
+          "font": {
+            "family": "'Segoe UI'"
+          }
+        }
+      }
+    },
+    "size": {
+      "height": 400
+    }
+  },
+  "theme": {
+    "visFont": "'Segoe UI'"
+  },
+  "i18n": {
+    "localeId": "en",
+    "locales": {
+      "en": {
+        "id": "en",
+        "delimiters": { "thousands": ",", "decimal": "."  }
+      },
+      "fr": {
+        "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      },
+      "es": {
+        "id": "es",
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      }
+    }
+  },
+  "ga": {},
+  "styles": "/assets/ilo/data-explorer/styles/styles.css",
+  "search": {
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
+    "homeFacetIds": ["cas_subject","cas_breakdown","cas_kilm"],
+    "pinnedFacetIds": ["cas_subject","cas_breakdown","cas_kilm"],
+    "excludedFacetIds": [
+      "collection","survey","edu","sex","age","ocu","cur","eco","cou","cla","geo","dur","how",
+      "gov","inj","ifl","mig","ste","dsb","soc","ins","coi","exp","datasource_id"
+    ],
+    "defaultRows": 10
+  },
+  "share": {
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": "https://www.ilo.org/"
+  }
+}

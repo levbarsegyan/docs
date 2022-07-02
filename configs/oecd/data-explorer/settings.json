@@ -10,7 +10,7 @@
     },
     "period": {
       "boundaries": ["1970", "2020"],
-      "default": ["2010", "2018"]
+      "default": ["2000", "2018"]
     },
     "frequency": "A"
   },
@@ -28,7 +28,8 @@
   },
   "app": {
     "title": "OECD Data Explorer",
-    "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
+    "favicon": "/assets/siscc/data-explorer/images/favicon.ico",
+    "basecamp": "basecamp"
   },
   "assets": {
     "header": "/assets/siscc/data-explorer/images/sis-cc-logo.png",
@@ -102,12 +103,12 @@
   },
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
-    "endpoint": "http://sfs.qa.oecd.redpelicans.com/api",
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
     "defaultRows": 10
   },
   "share": {
-    "confirmUrl": "http://data-viewer.qa.oecd.redpelicans.com",
-    "endpoint": "http://share.qa.oecd.redpelicans.com/api/charts",
-    "policy": "http://www.oecd.org/general/privacypolicy.htm"
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": "http://www.oecd.org/"
   }
 }

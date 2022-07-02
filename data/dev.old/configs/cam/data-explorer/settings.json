@@ -1,6 +1,6 @@
 {
   "sdmx": {
-    "datasourceIds": ["OECD_OECDCS1"],
+    "datasourceIds": ["CAM_CAM_CAT"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
@@ -10,35 +10,35 @@
     },
     "period": {
       "boundaries": ["1970", "2020"],
-      "default": ["2010", "2018"]
+      "default": ["2000", "2018"]
     },
     "frequency": "A"
   },
   "viewer": {
-    "owner": "OECD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+    "owner": "CAM",
+    "logo": "",
     "terms": {
       "label": "Terms & Conditions",
-      "link": "http://www.oecd.org/termsandconditions/"
+      "link": ""
     },
     "api": {
-      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
-      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
+      "doc": "",
+      "contact": ""
     }
   },
   "app": {
-    "title": "OECD Data Explorer",
+    "title": "CAM Data Explorer",
     "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "assets": {
-    "header": "/assets/siscc/data-explorer/images/sis-cc-logo.png",
-    "subheader": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png",
+    "header": "/assets/cam/data-explorer/images/nis-logo-header.jpg",
+    "subheader": "/assets/cam/data-explorer/images/nis-logo-sub-header.png",
     "footer": "/assets/siscc/data-explorer/images/sis-cc-icon.png",
-    "splash": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png"
+    "splash": "/assets/cam/data-explorer/images/cambodia-data-explorer-logo.png"
   },
   "chart": {
     "url": "",
-    "source": "http://dotstat.oecd.org/",
+    "source": "",
     "options": {
       "base": {
         "height": 400
@@ -73,7 +73,20 @@
     }
   },
   "theme": {
-    "visFont": "'Segoe UI'"
+    "visFont": "'Segoe UI'",
+    "layout": {
+      "fontFamily": "Arial, 'sans-serif'",
+      "background": "#c5e0dc"
+    },
+    "searchHeader": {
+      "background": "#c5e0dc"
+    },
+    "splash": {
+      "color": "black"
+    },
+    "searchDataflow": {
+      "colorTitle": "#0088cc !important"
+    }
   },
   "i18n": {
     "localeId": "en",
@@ -81,33 +94,21 @@
       "en": {
         "id": "en",
         "delimiters": { "thousands": ",", "decimal": "."  }
-      },
-      "fr": {
-        "id": "fr",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "es": {
-        "id": "es",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "ar": {
-        "id": "ar",
-        "isRtl": "true",
-        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },
   "ga": {
-    "token": "UA-114672937-7"
+    "token": ""
   },
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
-    "endpoint": "http://sfs.qa.oecd.redpelicans.com/api",
+    "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
+    "homeFacetIds": ["cam_cat","ref_area"],
     "defaultRows": 10
   },
   "share": {
-    "confirmUrl": "http://data-viewer.qa.oecd.redpelicans.com",
-    "endpoint": "http://share.qa.oecd.redpelicans.com/api/charts",
-    "policy": "http://www.oecd.org/general/privacypolicy.htm"
+    "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
+    "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
+    "policy": ""
   }
 }
