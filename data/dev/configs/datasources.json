@@ -1,12 +1,12 @@
 {
-  "OECD_OECDCS1": {
-    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+  "ILO_CAS_SUBJECT": {
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
     "version": "1.0",
-    "categorySchemeId": "OECDCS1",
-    "agencyId": "OECD",
+    "categorySchemeId": "CAS_SUBJECT",
+    "agencyId": "ILO",
     "hasRangeHeader": true,
-    "supportsReferencePartial": true,
-    "label": "OECDCS1 of OECD datasource",
+    "supportsReferencePartial": false,
+    "label": "CAS_SUBJECT of ILO datasource",
     "indexed": true
-  }
+  },
 }
