@@ -145,5 +145,8 @@
   "de.period.full_hour": "Hour",
   "de.period.day": "Day",
   "de.period.end": "End",
-  "de.period.start": "Start"
+  "de.period.start": "Start",
+  "de.period.last": "Last",
+  "de.period.periods": "periods",
+  "de.period.helpLastNPeriods": "Get the lastest available [X] time periods per time series within the given time period range"
 }
