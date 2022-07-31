@@ -148,5 +148,5 @@
   "de.period.start": "Start",
   "de.period.last": "Last",
   "de.period.periods": "periods",
-  "de.period.helpLastNPeriods": "Get the lastest available [X] time periods per time series within the given time period range"
+  "de.period.helpLastNPeriods": "Get the latest available [X] time periods per time series within the given time period range"
 }
