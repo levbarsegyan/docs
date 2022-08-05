@@ -128,7 +128,7 @@
 "share.error.title": "Error",
 "share.error.message": "Vaya, algo salió mal de nuestro lado",
 "vx.config.display.label": "nombre",
-"vx.config.display.code": "código",
+"vx.config.display.code": "identificador",
 "vx.config.display.both": "ambos",
 "vx.no.data": "No hay datos", 
 "vx.scope.list.select": "Seleccione en todos los niveles…",

@@ -130,7 +130,7 @@
   "share.error.title": "Error",
   "share.error.message": "Something went wrong on our side",
   "vx.config.display.label": "Name",
-  "vx.config.display.code": "Code",
+  "vx.config.display.code": "Identifier",
   "vx.config.display.both": "Both",
   "vx.no.data": "No data",
   "vx.scope.list.select": "Select all levels...",
