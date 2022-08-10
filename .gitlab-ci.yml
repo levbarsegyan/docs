@@ -13,9 +13,9 @@ variables:
   TAG_CONTAINER_DEV_IMAGE: $DEV_IMAGE:$CI_COMMIT_REF_NAME
   LATEST_CONTAINER_DEV_IMAGE: $DEV_IMAGE:latest
   PROD_IMAGE: siscc/dotstatsuite-config-prod
-  CONTAINER_PROD_IMAGE: $DEV_IMAGE:$CI_COMMIT_SHORT_SHA
-  TAG_CONTAINER_PROD_IMAGE: $DEV_IMAGE:$CI_COMMIT_REF_NAME
-  LATEST_CONTAINER_PROD_IMAGE: $DEV_IMAGE:latest
+  CONTAINER_PROD_IMAGE: $PROD_IMAGE:$CI_COMMIT_SHORT_SHA
+  TAG_CONTAINER_PROD_IMAGE: $PROD_IMAGE:$CI_COMMIT_REF_NAME
+  LATEST_CONTAINER_PROD_IMAGE: $PROD_IMAGE:latest
   DOCKER_REGISTRY: https://index.docker.io/v1/
 setup:
   stage: setup
@@ -73,7 +73,7 @@ release-prod:
     entrypoint: [""]
   script:
     - echo "{\"auths\":{\"$DOCKER_REGISTRY\":{\"auth\":\"$DOCKER_AUTH_TOKEN\"}}}" > /kaniko/.docker/config.json
-    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile.dev --destination $CONTAINER_PROD_IMAGE --destination $TAG_CONTAINER_PROD_IMAGE --destination $LATEST_CONTAINER_PROD_IMAGE
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile.prod --destination $CONTAINER_PROD_IMAGE --destination $TAG_CONTAINER_PROD_IMAGE --destination $LATEST_CONTAINER_PROD_IMAGE
   dependencies:
     - setup
     - build
