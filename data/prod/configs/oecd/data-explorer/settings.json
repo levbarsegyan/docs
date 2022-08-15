@@ -1,4 +1,4 @@
-staging{
+{
   "sdmx": {
     "datasourceIds": ["ILO_CAS_SUBJECT"],
     "range": [0, 1000],
