@@ -17,7 +17,7 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
     "label": "ABS_TOPICS of nsi.qa.core.oecd.redpelicans.com",
-    "indexed": false
+    "indexed": true
   },
   "OECD_CAS_BREAKDOWN": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
