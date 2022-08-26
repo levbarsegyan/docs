@@ -11,7 +11,7 @@
   },
   "OECD_ABS_TOPICS": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
-    "version": "1.0",
+    "version": "1.0.0",
     "categorySchemeId": "ABS_TOPICS",
     "agencyId": "ABS",
     "hasRangeHeader": true,
