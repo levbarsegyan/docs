@@ -1,9 +1,9 @@
 {
-  "OECD_ABS_TOPICS": {
+  "ABS_ABS_TOPICS": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
     "version": "1.0.0",
     "categorySchemeId": "ABS_TOPICS",
-    "agencyId": "OECD",
+    "agencyId": "ABS",
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
     "label": "ABS_TOPICS of nsi.qa.core.oecd.redpelicans.com",
