@@ -1,13 +1,73 @@
 {
-  "ABS_ABS_TOPICS": {
+  "ILO_CAS_SUBJECT": {
+    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_SUBJECT",
+    "agencyId": "ILO",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": false,
+    "label": "CAS_SUBJECT of ILO",
+    "indexed": true
+  },
+  "OECD_ABS_TOPICS": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
-    "version": "1.0.0",
+    "version": "1.0",
     "categorySchemeId": "ABS_TOPICS",
-    "agencyId": "ABS",
+    "agencyId": "OECD",
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
     "label": "ABS_TOPICS of nsi.qa.core.oecd.redpelicans.com",
-    "indexed": true
+    "indexed": false
+  },
+  "OECD_CAS_BREAKDOWN": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_BREAKDOWN",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "CAS_BREAKDOWN of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
+  },
+  "OECD_CAS_SUBJECT": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAS_SUBJECT",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "CAS_SUBJECT of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
+  },
+  "OECD_DDB": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "DDB",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "DDB of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
+  },
+  "OECD_CAM_CAT": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "CAM_CAT",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "CAM_CAT of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
+  },
+  "OECD_CS_MIGRATION": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "CS_MIGRATION",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "CS_MIGRATION of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
   },
   "OECD_OECDCS1": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
@@ -17,6 +77,6 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
     "label": "OECDCS1 of nsi.qa.core.oecd.redpelicans.com",
-    "indexed": true
+    "indexed": false
   }
 }

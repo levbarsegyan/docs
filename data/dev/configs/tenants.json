@@ -5,6 +5,10 @@
   },
   "oecd": {
     "id": "oecd",
-    "name": "OECD"
+    "name": "OECD",
+    "keycloak": {
+      "realm": "OECD",
+      "clientId": "app"
+    }
   }
 }

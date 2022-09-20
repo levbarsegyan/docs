@@ -1,6 +1,6 @@
 {
   "sdmx": {
-    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS", "OECD_OECDCS1"],
+    "datasourceIds": ["ILO_CAS_SUBJECT"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
