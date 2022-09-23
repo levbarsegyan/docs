@@ -6,5 +6,9 @@
   "oecd": {
     "id": "oecd",
     "name": "OECD"
+  },
+  "abs": {
+    "id": "abs",
+    "name": "ABS"
   }
 }

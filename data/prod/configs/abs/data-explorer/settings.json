@@ -1,6 +1,6 @@
 {
   "sdmx": {
-    "datasourceIds": ["OECD_OECDCS1"],
+    "datasourceIds": ["ABS_ABS_TOPICS"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
@@ -15,15 +15,15 @@
     "frequency": "A"
   },
   "viewer": {
-    "owner": "OECD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/OECD_logo_new.svg/200px-OECD_logo_new.svg.png",
+    "owner": "ABS",
+    "logo": "/assets/abs/images/logo.png",
     "terms": {
       "label": "Terms & Conditions",
-      "link": "http://www.oecd.org/termsandconditions/"
+      "link": "https://www.abs.gov.au/"
     },
     "api": {
-      "doc": "https://data.oecd.org/api/sdmx-json-documentation/",
-      "contact": "https://stats.oecd.org/FAQAndContact.aspx"
+      "doc": "https://www.abs.gov.au/",
+      "contact": "https://www.abs.gov.au/"
     }
   },
   "app": {
@@ -31,14 +31,14 @@
     "favicon": "/assets/siscc/data-explorer/images/favicon.ico"
   },
   "assets": {
-    "header": "/assets/siscc/data-explorer/images/sis-cc-logo.png",
+    "header": "/assets/abs/images/logo.png",
     "subheader": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png",
     "footer": "/assets/siscc/data-explorer/images/sis-cc-icon.png",
     "splash": "/assets/siscc/data-explorer/images/dotstat-data-explorer-logo.png"
   },
   "chart": {
     "url": "",
-    "source": "http://dotstat.oecd.org/",
+    "source": "https://www.abs.gov.au/",
     "options": {
       "base": {
         "height": 400
@@ -81,31 +81,17 @@
       "en": {
         "id": "en",
         "delimiters": { "thousands": ",", "decimal": "."  }
-      },
-      "fr": {
-        "id": "fr",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "es": {
-        "id": "es",
-        "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "ar": {
-        "id": "ar",
-        "isRtl": "true",
-        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
     "endpoint": "http://sfs.staging.oecd.redpelicans.com/api",
-    "homeFacetIds": ["cas_subject"],
     "defaultRows": 10
   },
   "share": {
     "confirmUrl": "http://data-viewer.staging.oecd.redpelicans.com",
     "endpoint": "http://share.staging.oecd.redpelicans.com/api/charts",
-    "policy": "http://www.oecd.org/general/privacypolicy.htm"
+    "policy": "https://www.abs.gov.au/"
   }
 }

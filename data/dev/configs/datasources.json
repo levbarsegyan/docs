@@ -18,5 +18,15 @@
     "supportsReferencePartial": true,
     "label": "ABS_TOPICS of nsi.qa.core.oecd.redpelicans.com",
     "indexed": true
+  },
+  "OECD_OECDCS1": {
+    "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
+    "version": "1.0",
+    "categorySchemeId": "OECDCS1",
+    "agencyId": "OECD",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "OECDCS1 of nsi.qa.core.oecd.redpelicans.com",
+    "indexed": false
   }
 }
