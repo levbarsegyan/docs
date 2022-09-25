@@ -80,11 +80,13 @@
     "locales": {
       "en": {
         "id": "en",
-        "delimiters": { "thousands": ",", "decimal": "."  }
+        "delimiters": { "thousands": ",", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
       },
       "fr": {
         "id": "fr",
-        "delimiters": { "thousands": " ", "decimal": ","  }
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
       },
       "es": {
         "id": "es",
