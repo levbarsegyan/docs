@@ -1,0 +1,32 @@
+{
+  "sdmx": {
+    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS"],
+    "typeIds": ["dataflow"],
+    "uploadSizeLimit": 30000000
+  },
+  "i18n": {
+    "localeId": "en",
+    "locales": {
+      "en": {
+        "id": "en",
+        "delimiters": { "thousands": ",", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "fr": {
+        "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "ar": {
+        "id": "ar",
+        "isRtl": "true",
+        "delimiters": { "thousands": " ", "decimal": ","  }
+      }
+    }
+  },
+  "assets": {
+    "logo": "/assets/siscc/data-lifecycle-manager/images/logo.png",
+    "icon": "/assets/siscc/data-lifecycle-manager/images/sis-cc-icon.png"
+  },
+  "styles": "/assets/siscc/data-lifecycle-manager/styles/styles.css"
+}

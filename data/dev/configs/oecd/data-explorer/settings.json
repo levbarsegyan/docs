@@ -72,9 +72,6 @@
       "height": 400
     }
   },
-  "table": {
-    "cellsLimit": 6000
-  },
   "theme": {
     "visFont": "'Segoe UI'"
   },

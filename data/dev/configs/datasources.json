@@ -7,7 +7,8 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": false,
     "label": "CAS_SUBJECT of ILO",
-    "indexed": true
+    "indexed": true,
+    "isExternal": true
   },
   "OECD_ABS_TOPICS": {
     "url": "http://nsi.qa.core.oecd.redpelicans.com/rest",
@@ -16,7 +17,7 @@
     "agencyId": "ABS",
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
-    "label": "ABS_TOPICS of nsi.qa.core.oecd.redpelicans.com",
+    "label": "ABS_TOPICS of OECD",
     "indexed": true
   },
   "OECD_OECDCS1": {
