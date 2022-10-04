@@ -1,4 +1,7 @@
 {
+  "en": "English",
+  "fr": "Français",
+  "ar": "العربية",
   "app.siscc": "SIS-CC",
   "app.name": ".Stat Data Lifecycle Manager",
   "route.not.found": "Route not found",

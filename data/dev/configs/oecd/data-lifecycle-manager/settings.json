@@ -1,7 +1,39 @@
 {
   "sdmx": {
     "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS"],
-    "typeIds": ["dataflow"],
+    "datasources": {
+      "ILO_CAS_SUBJECT": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#D24A44"
+      },
+      "OECD_ABS_TOPICS": {
+        "color": "white",
+        "backgroundColor": "#6A97C5"
+      }
+    },
+    "typeIds": [
+      "agencyscheme",
+      "attachmentconstraint",
+      "categoryscheme",
+      "categorisation",
+      "codelist",
+      "conceptscheme",
+      "contentconstraint",
+      "dataconsumerscheme",
+      "dataproviderscheme",
+      "datastructure",
+      "dataflow",
+      "hierarchicalcodelist",
+      "metadatastructure",
+      "metadataflow",
+      "organisationscheme",
+      "organisationunitscheme",
+      "process",
+      "provisionagreement",
+      "reportingtaxonomy",
+      "structureset"
+    ],
     "uploadSizeLimit": 30000000
   },
   "i18n": {
