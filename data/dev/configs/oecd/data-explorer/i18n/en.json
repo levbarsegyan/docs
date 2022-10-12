@@ -1,4 +1,5 @@
 {
+  "it": "Italiano",
   "en": "English",
   "fr": "Français",
   "ar": "العربية",
@@ -149,5 +150,4 @@
   "de.period.last": "Last",
   "de.period.periods": "periods",
   "de.period.helpLastNPeriods": "Get the latest available [X] time periods per time series within the given time period range"
-
 }
