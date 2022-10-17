@@ -112,7 +112,8 @@
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
     "endpoint": "http://sfs.qa.oecd.redpelicans.com/api",
-    "defaultRows": 10
+    "defaultRows": 10,
+    "homeFacetIds": ["datasource_id", "cas_subject", "cas_breakdown", "ddb_test", "istat_dw"]
   },
   "share": {
     "confirmUrl": "http://data-viewer.qa.oecd.redpelicans.com",
