@@ -1,6 +1,6 @@
 {
   "sdmx": {
-    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS", "OECD_OECDCS1"],
+    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS", "OECD_OECDCS1", "NSIDISS", "SDMXWSN"],
     "range": [0, 1000],
     "attributes": {
       "flags": ["OBS_STATUS"],
@@ -93,22 +93,22 @@
       },
       "es": {
         "id": "es",
-        "delimiters": { "thousands": " ", "decimal": ","  }
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "it": {
+        "id": "it",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
       },
       "ar": {
         "id": "ar",
         "isRtl": "true",
         "delimiters": { "thousands": " ", "decimal": ","  }
-      },
-      "it": {
-        "id": "it",
-        "delimiters": { "thousands": " ", "decimal": ","  }
       }
     }
   },
-  "ga": {
-    "token": "UA-114672937-7"
-  },
+  "ga": {},
   "styles": "/assets/siscc/data-explorer/styles/styles.css",
   "search": {
     "endpoint": "http://sfs.qa.oecd.redpelicans.com/api",

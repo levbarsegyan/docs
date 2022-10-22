@@ -27,6 +27,26 @@
     "hasRangeHeader": true,
     "supportsReferencePartial": true,
     "label": "OECDCS1 of nsi.qa.core.oecd.redpelicans.com",
-    "indexed": false
+    "indexed": true
+  },
+  "NSIDISS": {
+    "url": "http://sistanhub.istat.it/NSIDISS/rest",
+    "version": "1.0",
+    "categorySchemeId": "ISTAT_DW",
+    "agencyId": "IT1",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "ISTAT_DW of NSIDISS",
+    "indexed": true
+  },
+  "SDMXWSN": {
+    "url": "http://sistanhub.istat.it/SDMXWSN/rest",
+    "version": "1.0",
+    "categorySchemeId": "DDB_TEST",
+    "agencyId": "IT1",
+    "hasRangeHeader": true,
+    "supportsReferencePartial": true,
+    "label": "DDB_TEST of SDMXWSN",
+    "indexed": true
   }
 }

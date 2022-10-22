@@ -1,15 +1,29 @@
 {
   "sdmx": {
-    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS"],
+    "datasourceIds": ["ILO_CAS_SUBJECT", "OECD_ABS_TOPICS", "OECD_OECDCS1", "NSIDISS", "SDMXWSN"],
     "datasources": {
       "ILO_CAS_SUBJECT": {
         "isExternal": true,
         "color": "white",
-        "backgroundColor": "#D24A44"
+        "backgroundColor": "#839973"
       },
       "OECD_ABS_TOPICS": {
         "color": "white",
-        "backgroundColor": "#6A97C5"
+        "backgroundColor": "#606A80"
+      },
+      "OECD_OECDCS1": {
+        "color": "white",
+        "backgroundColor": "#735667"
+      },
+      "NSIDISS": {
+        "isExternal": true,
+        "color": "white",
+        "backgroundColor": "#B35961"
+      },
+      "SDMXWSN": {
+        "isExternal": true,
+        "color": "black",
+        "backgroundColor": "#F2D4AA"
       }
     },
     "typeIds": [
@@ -46,6 +60,16 @@
       },
       "fr": {
         "id": "fr",
+        "delimiters": { "thousands": " ", "decimal": ","  },
+        "timeFormat": "MMM YYYY"
+      },
+      "es": {
+        "id": "es",
+        "delimiters": { "thousands": ",", "decimal": "."  },
+        "timeFormat": "YYYY-MMM"
+      },
+      "it": {
+        "id": "it",
         "delimiters": { "thousands": " ", "decimal": ","  },
         "timeFormat": "MMM YYYY"
       },
