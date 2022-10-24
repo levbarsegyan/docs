@@ -5,25 +5,35 @@
       "ILO_CAS_SUBJECT": {
         "isExternal": true,
         "color": "white",
-        "backgroundColor": "#839973"
+        "backgroundColor": "#839973",
+        "label": "ILO",
+        "dataExplorerUrl": "http://data-explorer.qa.oecd.redpelicans.com/"
       },
       "OECD_ABS_TOPICS": {
         "color": "white",
-        "backgroundColor": "#606A80"
+        "backgroundColor": "#606A80",
+        "label": "ABS",
+        "dataExplorerUrl": "http://data-explorer.qa.oecd.redpelicans.com/"
       },
       "OECD_OECDCS1": {
         "color": "white",
-        "backgroundColor": "#735667"
+        "backgroundColor": "#735667",
+        "label": "OECD",
+        "dataExplorerUrl": "http://data-explorer.qa.oecd.redpelicans.com/"
       },
       "NSIDISS": {
         "isExternal": true,
         "color": "white",
-        "backgroundColor": "#B35961"
+        "backgroundColor": "#B35961",
+        "label": "NSIDISS",
+        "dataExplorerUrl": "http://data-explorer.qa.oecd.redpelicans.com/"
       },
       "SDMXWSN": {
         "isExternal": true,
         "color": "black",
-        "backgroundColor": "#F2D4AA"
+        "backgroundColor": "#F2D4AA",
+        "label": "SDMXWSN",
+        "dataExplorerUrl": "http://data-explorer.qa.oecd.redpelicans.com/"
       }
     },
     "typeIds": [
