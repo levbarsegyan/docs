@@ -1,6 +1,6 @@
 {
   "ILO_CAS_SUBJECT": {
-    "url": "https://ilo.org/ilostat-test/sdmx/ws/rest",
+    "url": "https://ilo.org/sdmx-test/rest",
     "version": "1.0",
     "categorySchemeId": "CAS_SUBJECT",
     "agencyId": "ILO",
